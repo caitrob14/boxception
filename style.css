@@ -28,3 +28,46 @@ h1 {
     /* Bonus */
     background-color: white;
 }
+
+
+/* BONUS */
+/* td {
+    border: 3px solid black;
+} */
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    margin: auto;
+}
+
+.top {
+    border-top: 3px solid black;
+}
+.right {
+    border-right: 3px solid black;
+}
+.bottom {
+    border-bottom: 3px solid black;
+}
+.left {
+    border-left: 3px solid black;
+}
+
+/* table color bonus */
+#one, #five,
+td:nth-of-type(1), 
+td:nth-of-type(5){
+    background-color: red;
+}
+
+#two, #three, #four {
+    background-color: blue;
+}
+
+.top.bottom.left.right {
+    background-color: white;
+}
